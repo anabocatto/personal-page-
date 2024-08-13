@@ -1,10 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página pessoal de Ana Beatriz">
+    <title>Ana Beatriz - Página Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; /* Cor de fundo bem clarinha */
+            color: #333;
+        }
+        header {
+            background-color: #fce4ec; /* Rosa clarinho */
+            color: #333;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .intro {
+            padding: 2rem;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            padding: 2rem;
+        }
+        .gallery img {
+            border-radius: 10px;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 2px solid #ddd;
+        }
+        footer {
+            background-color: #fce4ec;
+            color: #333;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Minha página pessoal</h1>
+    <header>
+        <h1>Bem-vindo ao site de Ana Beatriz!</h1>
+    </header>
+    <section class="intro">
+        <p>Olá! Sou Ana Beatriz e estou feliz por você estar aqui. Aqui no meu site eu estou mostrando um pouco das minhas paixões:
+        Fazer as unhas, cozinhar, me maquiar para me sentir bem e compras roupas. Espero que goste e volte sempre.</p>
+
+    </section>
+        <p> </p>
+    <section class="gallery">
+        <img src=https://i.pinimg.com/564x/6a/c1/5b/6ac15b48120aa42d6d28f7ca0cfcab19.jpg alt="Esmaltes" title="Esmaltes">
+        <img src=https://i.pinimg.com/564x/2d/d7/ad/2dd7ad9493fddc05ec7aa629d125fd05.jpg alt="Gastronomia" title="Gastronomia">
+        <img src=https://i.pinimg.com/564x/85/2b/be/852bbec6d5c1737e5c3e840ba3ac57bc.jpg alt="Maquiagens" title="Maquiagens">
+        <img src=https://i.pinimg.com/564x/a0/eb/79/a0eb79d353f6cce190e7c4c33a6fb9ea.jpg alt="Roupas" title="Roupas">
+    </section>
+    <footer>
+        <p>&copy; 2024 Ana Beatriz. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
